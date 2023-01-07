@@ -16,7 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f0f0f1;
+    background: #f9f9fa;
     /* border: 2px solid rebeccapurple; */
     position: fixed;
     left:50%;
