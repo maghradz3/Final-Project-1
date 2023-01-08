@@ -797,7 +797,7 @@ footer{
 }
 
 /* logo */
-.logo{
+.logo-2{
     display: flex;
     transform-style: preserve-3d;
     gap:15px;
@@ -808,7 +808,7 @@ footer{
 
 }
 
-.logo .text{
+.logo-2 .text{
     position: relative;
     width: 20px ;
     height: 20px;
@@ -817,23 +817,23 @@ footer{
     
 }
 
-.logo:hover .text{
+.logo-2:hover .text{
     transform:rotateX(720deg)
 }
 
 
-.logo:hover .text:last-child{
+.logo-2:hover .text:last-child{
     transform:rotateX(-720deg)
 }
 
-.logo:hover .text:first-child{
+.logo-2:hover .text:first-child{
     transform:rotateX(-360deg)
 }
-.logo:hover .text:nth-child(2){
+.logo-2:hover .text:nth-child(2){
     transform:rotateX(360deg)
 }
 
-.logo .text::before{
+.logo-2 .text::before{
     content: '';
     position: absolute;
     width: 100%;
@@ -853,7 +853,7 @@ footer{
 
 
 
-.logo .text span{
+.logo-2 .text span{
     position: absolute;
     top: 0;
     left: 0;
