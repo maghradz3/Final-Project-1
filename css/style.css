@@ -117,8 +117,9 @@ nav .li-tag{
     position: relative;
 }
 
-nav .li-tag:nth-child(1){
+.ul-tag .home{
     font-weight: bold;
+   
 }
 
 
