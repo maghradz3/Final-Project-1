@@ -127,6 +127,10 @@ header {
 }
 
 /* navigation */
+.hamburger {
+    display: none;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
