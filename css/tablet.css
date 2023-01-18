@@ -1,0 +1,90 @@
+@media (max-width:768px) {
+    header {
+        padding: 15px 40px;
+    }
+
+
+
+    nav ul {
+        gap: 30px;
+    }
+
+    nav .li-tag {
+        font-size: 0.7rem;
+    }
+
+
+
+    /* ----Section 1 */
+    .section-1 .img-div {
+        width: 100%;
+    }
+
+    .more-news-box {
+        width: 100%;
+    }
+
+    /* Section -2 ------------ */
+    .disappear {
+        display: none;
+    }
+
+    .card {
+        width: 47%;
+    }
+
+
+    /* Section-3------------------ */
+
+    .section-3-mainContent {
+        gap: 40px;
+    }
+
+    .happening-now-left {
+        width: 100%;
+
+    }
+
+    .happening-now-right {
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* border: 2px solid red; */
+
+    }
+
+    figure {
+        width: 48%;
+    }
+
+    figure img {
+        width: 100%;
+        /* border: 2px solid red */
+    }
+
+
+    figure::before {
+        bottom: 25px;
+
+    }
+
+
+    /* Foooter---------- */
+
+    footer {
+        padding: 60px 40px 60px 40px;
+        gap: 30px
+    }
+
+    .footer-nav {
+        gap: 10px
+    }
+
+    .nav-section {
+        line-height: 25px;
+    }
+
+
+    .icons {}

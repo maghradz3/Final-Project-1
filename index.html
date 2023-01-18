@@ -1,100 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"> -->
     <script src="https://kit.fontawesome.com/b64c1fd979.js" crossorigin="anonymous"></script>
     <title>Welcome to Homepage</title>
 </head>
+
 <body>
     <!----I created the main container where I placed the complete content------->
-   <div class="main-container">
+    <div class="main-container">
 
-    <!-------I created Header where i placed main logo and navigation --------- -->
-    <header>
-        <!-- i created logo with i variables  -->
-        <div class="logo">
-            <div class="text" style="--j:0;">
-                <span style="--i:0">L</span>
-                <span style="--i:1">O</span>
-                <span style="--i:2">G</span>
-                <span style="--i:3">O</span>
-            </div>
-            <div class="text" style="--j:1;">
-                <span style="--i:0">O</span>
-                <span style="--i:1">K</span>
-                <span style="--i:2">B</span>
-                <span style="--i:3">W</span>
-            </div>
-            <div class="text" style="--j:2;">
-                <span style="--i:0">G</span>
-                <span style="--i:1">W</span>
-                <span style="--i:2">I</span>
-                <span style="--i:3">K</span>
-            </div>
-            <div class="text" style="--j:3;">
-                <span style="--i:0">O</span>
-                <span style="--i:1">N</span>
-                <span style="--i:2">F</span>
-                <span style="--i:3">A</span>
-            </div>
-        </div>
-        <nav>
-            <ul class="ul-tag">
-                <a class="home" href="index.html"><li class="li-tag">HOME</li></a>
-                <a href="contact.html"><li class="li-tag">WORLD NEWS</li></a>
-                <li class="li-tag">PHOTOS</li>
-                <li class="li-tag">CONTACT</li>
-            </ul>
-        </nav>
-    </header>
-    <!-------------Section-1------------ -->
-    <section class="section-1">
-        <!-- ----created img-div and placed text content -->
-        <div class="img-div">
-            <div class="text-div">
-            <h2>WORLD NEWS</h2>
-            <div class="line"></div>
-            <h2>Amazing places in America to visit.</h2>
-            <p class="p-text">For some reason — this country, this city, 
-                this neighborhood, this particular street 
-                —  is the place you are living a majority 
-                of your life in.</p>
+        <!-------I created Header where i placed main logo and navigation --------- -->
+        <header>
+            <!-- i created logo with i variables  -->
+            <a href="index.html">
+                <div class="logo">
 
-            <button type="button">Learn more</button>
-            </div>
-         </div>
-         <!----- created more news div and placed 2 info boxes there---------->
-         <div class="more-news-box">
-            <h2 class="more-news-mainText">MORE NEWS</h2>
-            <div class="more-news-line"></div>
-            <div class="info-boxes">
-                <div class="info-box">
-                    <h3>TRAVEL</h3>
-                    <h3>Article title</h3>
-                    <p>Lorem ipsum dolor sit amet,
-                         ipsum labitur lucilius mel id,
-                          ad has appareat…</p>
-                          <i class="fa-regular fa-clock">  2 min ago</i>
+                    <div class="text" style="--j:0;">
+                        <span style="--i:0">L</span>
+                        <span style="--i:1">O</span>
+                        <span style="--i:2">G</span>
+                        <span style="--i:3">O</span>
+                    </div>
+                    <div class="text" style="--j:1;">
+                        <span style="--i:0">O</span>
+                        <span style="--i:1">K</span>
+                        <span style="--i:2">B</span>
+                        <span style="--i:3">W</span>
+                    </div>
+                    <div class="text" style="--j:2;">
+                        <span style="--i:0">G</span>
+                        <span style="--i:1">W</span>
+                        <span style="--i:2">I</span>
+                        <span style="--i:3">K</span>
+                    </div>
+                    <div class="text" style="--j:3;">
+                        <span style="--i:0">O</span>
+                        <span style="--i:1">N</span>
+                        <span style="--i:2">F</span>
+                        <span style="--i:3">A</span>
+                    </div>
+
+
                 </div>
-                <div class="info-box">
-                    <h3>TECHNOLOGY</h3>
-                    <h3>Article title</h3>
-                    <p>Lorem ipsum dolor sit amet,
-                         ipsum labitur lucilius mel id,
-                          ad has appareat…</p>
-                          <i class="fa-regular fa-clock">  2 min ago</i>
+            </a>
+            <div class="hamburger">
+                <div>
+                    <i class="fa-solid fa-bars "></i>
                 </div>
             </div>
-        </div>
-      
-    </section>
-    <!------------Section-2 --------------->
-    <section class="section-2">
+            <nav class="nav-bar">
+                <ul class="ul-tag">
+
+                    <li class="li-tag">
+                        <a class="a-tags home " href="">HOME</a>
+                    </li>
+
+                    <!-- <a href="contact.html"> -->
+                    <li class="li-tag">
+                        <a class="a-tags" href="contact.html">WORLD NEWS</a>
+                    </li>
+                    <!-- </a> -->
+                    <li class="li-tag">
+                        <a class="a-tags" href="">PHOTOS</a>
+                    </li>
+                    <li class="li-tag">
+                        <a class="a-tags" href="">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+        </header>
+        <!-------------Section-1------------ -->
+        <section class=" section-1">
+            <!-- ----created img-div and placed text content -->
+            <div class="img-div">
+                <div class="text-div">
+                    <h2>WORLD NEWS</h2>
+                    <div class="line"></div>
+                    <h2>Amazing places in America to visit.</h2>
+                    <p class="p-text">For some reason — this country, this city,
+                        this neighborhood, this particular street
+                        —  is the place you are living a majority
+                        of your life in.</p>
+
+                    <button type="button">
+                        Learn more
+                    </button>
+                </div>
+            </div>
+            <!----- created more news div and placed 2 info boxes there---------->
+            <div class="more-news-box">
+                <h2 class="more-news-mainText">MORE NEWS</h2>
+                <div class="info-boxes">
+                    <div class="info-box">
+                        <h3>TRAVEL</h3>
+                        <h3>Article title</h3>
+                        <p>Lorem ipsum dolor sit amet,
+                            ipsum labitur lucilius mel id,
+                            ad has appareat…</p>
+                        <i class="fa-regular fa-clock"> 2 min ago</i>
+                    </div>
+                    <div class="info-box">
+                        <h3>TECHNOLOGY</h3>
+                        <h3>Article title</h3>
+                        <p>Lorem ipsum dolor sit amet,
+                            ipsum labitur lucilius mel id,
+                            ad has appareat…</p>
+                        <i class="fa-regular fa-clock"> 2 min ago</i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!------------Section-2 --------------->
+        <section class="section-2">
             <h2>TRENDING</h2>
             <article class="article-1">
                 <div class="card">
@@ -102,7 +131,7 @@
                         <div class="slider">
                             <img id="slide-1" src="images/image-3.jpg" alt="riverside and rocks">
                             <img id="slide-2" src="images/image -2.jpg" alt=" sunshine and rocks">
-                            <img id="slide-3" src="images/image 1.jpg" alt=" Raining weather and field">    
+                            <img id="slide-3" src="images/image 1.jpg" alt=" Raining weather and field">
                         </div>
                         <div class="slide-nav">
                             <a href="#slide-1"></a>
@@ -112,14 +141,14 @@
                     </div>
                     <h3>Feel the greatness of nature</h3>
                     <p>Feel the power of nature and see it in reality immediately.
-                         Book now and get unforgettable emotions</p>
+                        Book now and get unforgettable emotions</p>
                 </div>
-                <div class="card">
-                    <div class="slider-wrap">
+                <div class="card disappear">
+                    <div class="slider-wrap ">
                         <div class="slider">
                             <img id="slide-4" src="images/pexels-asad-photo-maldives-3601425.jpg" alt="maldives beach">
                             <img id="slide-5" src="images/pexels-elle-hughes-1549196.jpg" alt=" serfers">
-                            <img id="slide-6" src="images/pexels-pok-rie-130879.jpg" alt="sunset on the beach">    
+                            <img id="slide-6" src="images/pexels-pok-rie-130879.jpg" alt="sunset on the beach">
                         </div>
                         <div class="slide-nav">
                             <a href="#slide-4"></a>
@@ -135,7 +164,7 @@
                         <div class="slider">
                             <img id="slide-7" src="images/pexels-belle-co-847393.jpg" alt="water turtle in ocean">
                             <img id="slide-8" src="images/pexels-brian-60112.jpg" alt=" farm and horses">
-                            <img id="slide-9" src="images/pexels-w-w-889929.jpg" alt=" Big fishes of the oceane">    
+                            <img id="slide-9" src="images/pexels-w-w-889929.jpg" alt=" Big fishes of the oceane">
                         </div>
                         <div class="slide-nav">
                             <a href="#slide-7"></a>
@@ -145,112 +174,120 @@
                     </div>
                     <h3>Feel the real fauna</h3>
                     <p>Connect with fauna both on land and underwater.
-                         Book now and get amazing emotions</p>
+                        Book now and get amazing emotions</p>
                 </div>
             </article>
-            
 
-    </section>
 
-    <!----------------Section-3 ----------------->
-    <section class="section-3">
-        <h3 class="section-3-headline">HAPPENING NOW</h3>
-        <div class="section-3-mainContent">
+        </section>
 
-            <!-- Section-3 left content -->
-        <div class="happening-now-left">
-            <div class="article-img">
-                <h3>CITY</h3>
-                <h2>Large article title</h2>
-                <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto,
-                     vidit vituperatoribus duo id. Affert detraxit 
-                     voluptatum vis eu, inermis eloquentiam.</p>
+        <!----------------Section-3 ----------------->
+        <section class="section-3">
+            <h3 class="section-3-headline">HAPPENING NOW</h3>
+            <div class="section-3-mainContent">
+
+                <!-- Section-3 left content -->
+                <div class="happening-now-left">
+                    <div class="article-img">
+                        <h3>CITY</h3>
+                        <h2>Large article title</h2>
+                        <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto,
+                            vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.</p>
+                    </div>
+                    <div class="article-img">
+                        <h3>TRAVEL</h3>
+                        <h2>Large article title</h2>
+                        <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto,
+                            vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.</p>
+                    </div>
+                </div>
+                <!-- Section-3 right content -->
+                <div class="happening-now-right">
+                    <figure>
+                        <img class="figure-img" src="images/elephant.png" alt="elephant in sand">
+                        <figcaption class="figure-title">Wild animals</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="figure-img" src="images/parrot.png" alt="parrot">
+                        <figcaption class="figure-title">Royal birds</figcaption>
+                    </figure>
+                    <figure class="disappear">
+                        <img class="figure-img" src="images/tom-mussak-1084.png" alt="green forest">
+                        <figcaption class="figure-title">Beautiful trips</figcaption>
+                    </figure>
+                </div>
             </div>
-            <div class="article-img">
-                <h3>TRAVEL</h3>
-                <h2>Large article title</h2>
-                <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto,
-                     vidit vituperatoribus duo id. Affert detraxit 
-                     voluptatum vis eu, inermis eloquentiam.</p>
+        </section>
+
+        <!--------------Footer------------->
+        <footer>
+            <div class="logo-2">
+                <div class="text" style="--j:0;">
+                    <span style="--i:0">L</span>
+                    <span style="--i:1">O</span>
+                    <span style="--i:2">G</span>
+                    <span style="--i:3">O</span>
+                </div>
+                <div class="text" style="--j:1;">
+                    <span style="--i:0">O</span>
+                    <span style="--i:1">K</span>
+                    <span style="--i:2">B</span>
+                    <span style="--i:3">W</span>
+                </div>
+                <div class="text" style="--j:2;">
+                    <span style="--i:0">G</span>
+                    <span style="--i:1">W</span>
+                    <span style="--i:2">I</span>
+                    <span style="--i:3">K</span>
+                </div>
+                <div class="text" style="--j:3;">
+                    <span style="--i:0">O</span>
+                    <span style="--i:1">N</span>
+                    <span style="--i:2">F</span>
+                    <span style="--i:3">A</span>
+                </div>
             </div>
-        </div>
-        <!-- Section-3 right content -->
-        <div class="happening-now-right">
-            <figure>
-                <img class="figure-img" src="images/elephant.png" alt="elephant in sand">
-                <figcaption class="figure-title">Wild animals</figcaption>
-            </figure>
-            <figure>
-                <img class="figure-img" src="images/parrot.png" alt="parrot">
-                <figcaption class="figure-title">Royal birds</figcaption>
-            </figure>
-            <figure>
-                <img class="figure-img" src="images/tom-mussak-1084.png" alt="green forest">
-                <figcaption class="figure-title">Beautiful trips</figcaption>
-            </figure>
-        </div>
+            <div class="footer-nav">
+                <div class="nav-section">
+                    <p>Home</p>
+                    <p>Discovery</p>
+                    <p>Photos</p>
+                    <p>Contact</p>
+                </div>
+                <div class="nav-section">
+                    <p>About</p>
+                    <p>Help</p>
+                    <p>Terms</p>
+                    <p>Guidlines</p>
+                </div>
+                <div class="nav-section">
+                    <p>Testimonials</p>
+                    <p>Advertise</p>
+                    <p>Advertise</p>
+                    <p>Careers</p>
+                </div>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-instagram "></i>
+                <i class="fa-brands fa-twitter blue-icons "></i>
+                <i class="fa-brands fa-facebook-f blue-icons"></i>
+                <i class="fa-solid fa-earth-americas blue-icons"></i>
+            </div>
+        </footer>
+
+
+
     </div>
-    </section>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            nav = document.querySelector(".nav-bar");
+            nav.classList.toggle("active");
+        }
 
-    <!--------------Footer------------->
-    <footer>
-        <div class="logo-2">
-            <div class="text" style="--j:0;">
-                <span style="--i:0">L</span>
-                <span style="--i:1">O</span>
-                <span style="--i:2">G</span>
-                <span style="--i:3">O</span>
-            </div>
-            <div class="text" style="--j:1;">
-                <span style="--i:0">O</span>
-                <span style="--i:1">K</span>
-                <span style="--i:2">B</span>
-                <span style="--i:3">W</span>
-            </div>
-            <div class="text" style="--j:2;">
-                <span style="--i:0">G</span>
-                <span style="--i:1">W</span>
-                <span style="--i:2">I</span>
-                <span style="--i:3">K</span>
-            </div>
-            <div class="text" style="--j:3;">
-                <span style="--i:0">O</span>
-                <span style="--i:1">N</span>
-                <span style="--i:2">F</span>
-                <span style="--i:3">A</span>
-            </div>
-        </div>
-        <div class="footer-nav">
-            <div class="nav-section">
-            <p>Home</p>
-            <p>Discovery</p>
-            <p>Photos</p>
-            <p>Contact</p>
-        </div>
-        <div class="nav-section">
-            <p>About</p>
-            <p>Help</p>
-            <p>Terms</p>
-            <p>Guidlines</p>
-        </div>
-        <div class="nav-section">
-            <p>Testimonials</p>
-            <p>Advertise</p>
-            <p>Advertise</p>
-            <p>Careers</p>
-        </div>
-        </div>
-        <div class="icons">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter blue-icons"></i>
-            <i class="fa-brands fa-facebook-f blue-icons"></i>
-            <i class="fa-solid fa-earth-americas blue-icons"></i>
-        </div>
-    </footer>
-
-
-
-   </div>
-    
+    </script>
 </body>
+
 </html>
