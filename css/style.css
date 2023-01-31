@@ -232,6 +232,7 @@ nav .li-tag:hover::after {
 
 .text-div :nth-child(1) {
     font-size: 1.7rem;
+    /* font-family: 'Roboto', sans-serif; */
     margin-bottom: 2.2rem;
     font-weight: bold;
     position: relative;
@@ -307,7 +308,7 @@ nav .li-tag:hover::after {
     margin-bottom: 2rem;
 }
 
-.text-div :nth-child(5) {
+.text-div .linki .btn {
     padding: 0.8rem 2.5rem;
     font-size: 1rem;
     cursor: pointer;
@@ -322,7 +323,7 @@ nav .li-tag:hover::after {
 }
 
 
-.text-div :nth-child(5)::before {
+.text-div .linki .btn::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -331,14 +332,14 @@ nav .li-tag:hover::after {
     left: 0;
     bottom: 0;
     background-image: linear-gradient(135deg, #e943ff 10%, #9708CC 100%);
-    transform: scale(0);
+    transform: scaleX(0);
 
     z-index: -1;
     transition: transform 0.5s ease-in;
 }
 
-.text-div :nth-child(5):hover::before {
-    transform: scale(1);
+.text-div .linki .btn:hover::before {
+    transform: scaleX(1);
     border-radius: 0.3rem;
 
 }
@@ -974,30 +975,32 @@ footer {
     display: flex;
     justify-content: space-between;
 
-    color: #ffffff;
+    /* color: #ffffff; */
     gap: 2rem;
     /* margin-left: 500px; */
 
 }
 
-.icons :nth-child(1) {
+.btnn .red-icons {
     transition: 0.2s ease-in;
     cursor: pointer;
+    color: white;
 
 }
 
-.icons :nth-child(1):hover {
+.btnn .red-icons:hover {
     color: #EA5455;
     transform: scale(1.5);
 
 }
 
-.blue-icons {
+.btnn .blue-icons {
     transition: 0.2s ease-in;
     cursor: pointer;
+    color: white;
 }
 
-.blue-icons:hover {
+.btnn .blue-icons:hover {
     color: #0e70e0;
     transform: scale(1.5);
 }
